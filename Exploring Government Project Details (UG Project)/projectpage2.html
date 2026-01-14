@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Project</title>
+   <style>
+      body {
+         background-color: rgb(230, 255, 255);
+      }
+
+      .searchoption {
+         border: none;
+      }
+
+      .search {
+         margin-top: 10px;
+         height: 40px;
+         width: 400px;
+         border-radius: 15px;
+         border: solid rgb(223, 223, 223)1px;
+      }
+
+      .searchoption .search::placeholder {
+         padding-left: 10px;
+         color: rgb(187, 183, 183);
+      }
+
+      .box {
+         height: 230px;
+         width: 700px;
+         border: 2px solid rgb(117, 146, 142);
+         background-color: white;
+         border-radius: 20px;
+      }
+
+      .projects {
+         margin-top: 55px;
+         display: flex;
+         flex-direction: column;
+         gap: 1rem;
+         align-items: center;
+      }
+
+      .box img {
+         margin-right: 65%;
+         margin-top: 40px;
+      }
+
+      .box h2 {
+         font-size: 40px;
+         color:black;
+      }
+  
+   .text{
+        position:relative;
+        bottom:80%;
+        left:10%; 
+      }
+      .box p{
+      position: relative;
+      top:60px;
+      right:9%;
+      color:rgb(139, 139, 139);
+      }
+      button{
+         margin-left:53%;
+         position:relative;
+         top:23px;
+         padding:10px;
+         background-color:  rgb(62, 226, 255);;
+         border-radius:15px;
+         width:130px;
+         color:white;
+         font-family:Poppins, sans-serif;
+         font-size:15px;
+         font-weight: 550;
+         border:rgb(0, 160, 223) solid 2px;
+      }
+      button:hover{
+         background-color:rgb(0, 163, 204);
+      }
+   </style>
+</head>
+
+<body>
+   <center>
+      <div class="searchoption"><input class="search" type="search" placeholder="Search projects..."></div>
+   </center>
+
+   <center>
+      <div class="projects">
+         <div class="box">
+            <img src="D:\html\road.jpg" width="180" height="140" id="img1">
+           <div class="text"><h2>Name of the Project</h2><p>Location: Location of the Project</p><a href="financeandabout.html"><button>View</button></a></div>
+            
+        <div class="box"><img src="D:\html\road.jpg" width="180" height="140" id="img1">
+           <div class="text"><h2>Name of the Project</h2><p>Location: Location of the Project</p><a href="financeandabout.html"><button>View</button></a></div> 
+         </div>
+      </div>
+   </center>
+</body>
+
+</html>
